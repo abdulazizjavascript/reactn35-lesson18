@@ -3,21 +3,21 @@
 @import "../modules/news.css";
 @import "../modules/events.css";
 
-.home {
+.service {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 80px;
     background: #FFF;
 }
-.home-left h3{
+.service-left h3{
     color: var(--Primary-text, #1D2130);
         font-size: 16px;
         font-weight: 700;
         letter-spacing: 2px;
         text-transform: uppercase;
 }
-.home-left h1{
+.service-left h1{
     width: 461px;
         color: var(--Primary-text, #1D2130);
         font-size: 56px;
@@ -25,7 +25,7 @@
         line-height: 120%;
     padding-top: 30px;
 }
-.home-left p{
+.service-left p{
     padding-top: 30px;
      width: 554px;
         color: var(--Secondary-text, #525560);
