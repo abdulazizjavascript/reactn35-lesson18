@@ -163,6 +163,15 @@
         font-weight: 500;
         margin-left: 30px;
 }
+    @media (max-width: 800px) {
+            .envirom {
+                grid-template-columns: auto auto;
+            }
+    
+            .pro-2 {
+                grid-template-columns: auto auto;
+            }
+        }
     @media (max-width: 650px){
         .home{
             flex-direction: column;
@@ -174,6 +183,9 @@
             margin: 0 auto;
             width: 300px;
             padding-bottom: 15px;
+        }
+        .home h3{
+            text-align: center;
         }
         .home h1{
             margin: 0 auto;
@@ -192,3 +204,5 @@
             width: 300px;
          }
     }
+  
+        
