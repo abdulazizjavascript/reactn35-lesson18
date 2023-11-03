@@ -1,1 +1,78 @@
 @import "../base/global.css";
+@font-face {
+    font-family: Roboto;
+    src: url("../../assets/fonts/Roboto-Black.ttf");
+}
+
+.container-md {
+    max-width: 872px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.block {
+    display: grid;
+    font-family: Roboto;
+    background-color: #d1d8d4;
+}
+
+.block__box h1 {
+    width: 750px;
+    height: 134px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 96px;
+    margin-bottom: 0px;
+}
+
+.block_bottom {
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.block__bottom--left {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    margin-bottom: 96px;
+}
+
+.block__bottom--right {
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    margin-bottom: 96px;
+}
+
+.block2 {
+    margin-top: 96px;
+}
+
+.block2__box h1 {
+    width: 130px;
+    height: 58px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.block2__box p {
+    width: 768px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #525560;
+}
