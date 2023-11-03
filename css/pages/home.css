@@ -1,1 +1,12 @@
 @import "../base/global.css";
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 2px solid red;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
