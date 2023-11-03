@@ -2,3 +2,193 @@
 @import "../modules/donate.css";
 @import "../modules/news.css";
 @import "../modules/events.css";
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    background: #FFF;
+}
+.home-left h3{
+    color: var(--Primary-text, #1D2130);
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+}
+.home-left h1{
+    width: 461px;
+        color: var(--Primary-text, #1D2130);
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 120%;
+    padding-top: 30px;
+}
+.home-left p{
+    padding-top: 30px;
+     width: 554px;
+        color: var(--Secondary-text, #525560);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+}
+.envir{
+    background: var(--Green-tertiary, #EFF7F2);
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.envir h1{
+    color: var(--Primary-text, #1D2130);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 120%;
+}
+.envirom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 50px;
+    padding-top: 30px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.envirom-card p{
+    padding-left: 45px;
+     width: 332px;
+        color: var(--Secondary-text, #525560);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        padding-top: 6px;
+}
+.envirom-card h3{
+    color: var(--Primary-text, #1D2130);
+        font-size: 24px;
+        font-weight: 700;
+}
+.pro-1{
+    padding-top: 150px;
+}
+.pro-1 h3{
+    color: var(--Primary-text, #1D2130);
+        font-size: 16px;   
+       font-weight: 700;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+}
+.pro-1 h1{
+         width: 700px;
+        color: var(--Primary-text, #1D2130);
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 120%;
+        margin: 0 auto;
+        padding-bottom: 35px;
+}
+.pro-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 30px;
+}
+.pro-card h2{
+    width: 315px;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 150%;
+        padding-top: 40px;
+        padding-left: 30px;
+}
+.pro-cards-1{
+        border-radius: 12px;
+            opacity: 0.8;
+            background: var(--Black, #0B0706);
+    background-image: url('../../assets/images/services/img2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+
+}
+.pro-cards-2 {
+    border-radius: 12px;
+    opacity: 0.8;
+    background: var(--Black, #0B0706);
+    background-image: url('../../assets/images/services/img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+
+}
+.pro-cards-3 {
+    border-radius: 12px;
+    background: var(--Black, #0B0706);
+    opacity: 0.8;
+    background-image: url('../../assets/images/services/img4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+
+}
+.pro-card p{
+    width: 315px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+}
+.pro-card button{
+        padding: 16px 32px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        background: #FFF;
+        backdrop-filter: blur(40px);
+        border: none;
+        color: var(--Primary-text, #1D2130);
+        text-align: right;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 30px;
+}
+    @media (max-width: 650px){
+        .home{
+            flex-direction: column;
+        }
+        .envirom{
+            grid-template-columns: auto;
+        }
+        .home p{
+            margin: 0 auto;
+            width: 300px;
+            padding-bottom: 15px;
+        }
+        .home h1{
+            margin: 0 auto;
+            width: 200px;
+        }
+        .home img {
+            width: 100%;
+        }
+        .envir h1{
+            text-align: center;
+        }
+        .pro-2{
+            grid-template-columns: auto;
+        }
+         .pro-1 h1{
+            width: 300px;
+         }
+    }
