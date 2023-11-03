@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/pages/home.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <div class="container navbar">
         <div class="nav-logo"><img src="./assets/images/home/logo-finsweet.svg" alt="logo"></div>
         <ul class="nav-list">
@@ -18,84 +18,193 @@
           <li class="nav-item"><a href="./pages/contact.html" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="./pages/donation.html" class="nav-link"><button class="nav-btn">Donate</button></a></li>
         </ul>
+        <button class="hamburger"><img src="" alt=""><img src="./assets/images/home/hamburger.svg" alt="hamburger"></button>
       </div>
     </nav>
-    <header></header>
-    <footer>
-      <div class="container">
-        <div class="footer__row">
-          <div class="footer__logo">
-            <img src="./assets/images/home/footer-logo.svg" alt="footer logo">
-          </div>
-          <div class="footer__links">
-            <div class="links__our-team links">
-              <p>
-                Our team
-              </p>
-              <a href="./pages/about.html">
-                About us
-              </a>
-              <a href="#">
-                Team
-              </a>
-              <a href="./pages/services.html">
-                What we do
-              </a>
-              <a href="./pages/contact.html">
-                Contact
-              </a>
-            </div>
-            <div class="links__more links">
-              <p>
-                More
-              </p>
-              <a href="./pages/project.html">
-                Projects
-              </a>
-              <a href="./pages/event.html">
-                Events
-              </a>
-              <a href="./pages/donation.html">
-                Donate
-              </a>
-              <a href="./pages/blog.html">
-                Blog
-              </a>
-            </div>
-            <div class="links__contact links">
-              <p>
-                Conatact
-              </p>
-              <a href="#">
-                Facebook
-              </a>
-              <a href="#">
-                Instagram
-              </a>
-              <a href="#">
-                Twitter
-              </a>
-              <a href="#">
-                Linkdin 
-              </a>
-            </div>
-          </div>
-          <div class="footer__subscribe">
-            <h2>
-              Subscribe to get latest updates
-            </h2>
-            <div class="input-btn">
-              <form action="#">
-                <input placeholder="Your email" type="email">
-                <button>
-                  Subscribe
-                </button>
-              </form>
+    <header>
+      <div class="container header__container">
+        <div class="header__content">
+          <h1>
+            Save the environment today for a better tomorrow
+          </h1>
+  
+          <div class="header__content__button-box">
+            <button class="button-box__btn">What we do</button>
+            <div class="button-box__div">
+              <img src="./assets/images/home/Play icon.svg" alt="play-icon">
+              <p>Play Video</p>
             </div>
           </div>
         </div>
+
+        <div class="header__bottom-box">
+          <p>23,800 trees planted</p>
+          <div class="line"></div>
+          <p>5840 donations collected</p>
+        </div>
       </div>
-    </footer>
+    </header>
+    <main>
+      <section id="section-1">
+        <div class="container know-about-us">
+          <div class="line-main"></div>
+          
+          <div class="main__content">
+            <span>
+              Know About us
+            </span>
+            <h2>
+              We help nature smile and survive everywhere
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+              <br><br>
+               ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
+            <a href="#"><button class="main__content__btn">Learn more</button></a>
+          
+          
+          </div>
+          <div class="main-right-box">
+            <img class="bg-img" src="./assets/images/home/BG.png" alt="bg-img">
+            <img class="play-icon-64" src="./assets/images/home/Play icon.svg" alt="">
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="section-2">
+        <div class="container our-supporters">
+          <div class="support-content">
+            <p>our Supporters</p>
+          <div class="support-line"></div>
+          </div>
+          
+          <div class="support-box">
+            <img src="./assets/images/home/support-logo (6).svg" alt="">
+            <img src="./assets/images/home/support-logo (5).svg" alt="">
+            <img src="./assets/images/home/support-logo (4).svg" alt="">
+            <img src="./assets/images/home/support-logo (3).svg" alt="">
+            <img src="./assets/images/home/support-logo (2).svg" alt="">
+            <img src="./assets/images/home/support-logo (1).svg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section id="section-3">
+        <div class="container">
+          <div class="what-we-do__top">
+            <div class="what-we-do__top__line"></div>
+            <p>What we do</p>
+          </div>
+        </div>
+        <div class="container what-we-do">
+          
+          <div class="what-we-do__left">
+            <h2>
+              We care for earth, care for the coming birth
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+            </p>
+            <ul class="what-we-do__list">
+              <li class="item">
+                <div class="list__icon">
+                  <img src="./assets/images/home/icon-28 (4).svg" alt="">
+                  <h1>Build Healthy Cities</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+              </li>
+              <li class="item">
+                <div class="list__icon">
+                  <img src="./assets/images/home/icon-28 (3).svg" alt="">
+                  <h1>Tree Plantation</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+              </li>
+              <li class="item">
+                <div class="list__icon">
+                  <img src="./assets/images/home/icon-28 (2).svg" alt="">
+                  <h1>Protect Land and Water</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+              </li>
+              <li class="item">
+                <div class="list__icon">
+                  <img src="./assets/images/home/icon-28 (1).svg" alt="">
+                  <h1>Animal Safety</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="what-we-do__right">
+            <img src="./assets/images/home/man-and-dog.png" alt="man-and-dog">
+          </div>
+        </div>
+      </section>
+
+      <section id="section-4">
+
+        <div class="container section-4">
+          <div class="what-we-do__top">
+            <div class="what-we-do__top__line"></div>
+            <p>Projects we have done</p>
+          </div>
+
+          <h1>We are Creating sustainable society, for everyone and forever.</h1>
+        </div>
+
+        <div class="container">
+          <div class="section-4__card-box">
+            <div class="card-box__card card-box__card-1">
+              <div>
+                <h3>
+                  Mission 40K: Tree plantation
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+                <button>See more</button>
+              </div>
+            </div>
+            <div class="card-box__card card-box__card-2">
+              <div>
+                <h3>
+                  Weekly cleanliness program in city
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+                <button>See more</button>
+              </div>
+            </div>
+            <div class="card-box__card card-box__card-3">
+              <div>
+                <h3>
+                  Wildlife safety program 2021
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+                <button>See more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./js/home.js"></script>
   </body>
 </html>
  

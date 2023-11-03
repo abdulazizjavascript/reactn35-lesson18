@@ -1,0 +1,85 @@
+@import "../base/global.css";
+@import "../modules/donate.css";
+@import "../modules/news.css";
+@import "../modules/events.css";
+
+/* ---------------nav start------------------------- */
+
+nav{
+    padding: 24px 0;
+    background-color: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: 0.5s; 
+}
+
+.navbar-shrink{
+    padding: 5px 0;
+    border: 2px solid black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--Secondary-text, #525560);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-link:hover {
+    color: var(--Black, #0B0706);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-btn{
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Primary-text, #1D2130);
+
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    @media (max-width:800px)  {
+
+        .nav-list{
+            display: none;
+        }
+
+        .hamburger{
+            display: flex;
+        }
+        
+    }
+
+    /* ---------------nav end------------------------- */
