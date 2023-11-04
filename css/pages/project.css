@@ -1,2 +1,132 @@
 @import "../base/global.css";
 @import "../modules/donate.css";
+
+
+.project-top {
+  display: flex;
+  gap: 24px;
+  place-content: center;
+  margin-top: 96px;
+}
+
+.project__info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 96px;
+}
+
+.project__title {
+  margin-top: 32px;
+  color: #1d2130;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+.project__text {
+  color: #525560;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 14px 0 35px;
+}
+
+.project__part-2--list li {
+  padding-bottom: 10px;
+  list-style-type: disc;
+  font-weight: 700;
+}
+
+
+.project__program-mid{
+    background-color: #EBF0F9;
+}
+
+.project__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 48px;
+  padding: 96px 0;
+}
+
+.project__part-3 {
+  display: flex;
+  margin-bottom: 96px;
+}
+
+.project__item{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.project__item--text h2{
+    color: #1D2130;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    position: relative;
+    z-index: 1;
+}
+
+.project__item--text p{
+    color: #525560;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.bottom__items{
+    display: flex;
+    gap: 24px;
+    padding: 96px 0;
+}
+
+.bottom__item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 80px 48px 48px;
+}
+
+.item_bg1{
+    background-image: url(../../assets/images/project/project_pic.png);
+  
+}
+
+.item_bg2{
+    background-image: url(../../assets/images/project/project_pic2.png);
+   
+}
+
+.item_bg3{
+    background-image: url(../../assets/images/project/project_pic3.png);
+   
+}
+
+.bottom__item h2{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.bottom__item p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 64px;
+}
+.bottom__item button{
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #1D2130;
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
