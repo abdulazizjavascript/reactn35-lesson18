@@ -1,0 +1,134 @@
+.events__header h2{
+    margin-bottom: 48px;
+    color: var(--Primary-text, #1D2130);
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.events-date__card{
+    width: 628px;
+    height: 191px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Green-secondary, #BEF3C0);
+    justify-content: space-evenly;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+
+.event__main-style{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: var(--Primary-text, #1D2130);
+
+}
+
+.event__day{
+    font-size: 48px;
+    line-height: 120%;
+    font-variant: small-caps;
+}
+
+.event__month{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.header__1{
+    display: flex;
+    align-items: center;
+}
+
+.next__event{
+    margin-right: 23px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+}
+
+.header__2{
+    max-width: 381px;
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.event__header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.event-row__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.events__sec{
+    margin-bottom: 96px;
+}
+
+@media(max-width:1300px){
+    .event-row__container{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:650px){
+    .events-date__card{
+        width: 500px;
+        height: 300px;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:520px){
+    .events-date__card{
+        max-width: 300px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:340px){
+    .event__day{
+        font-size: 30px;
+    }
+
+    .event__month{
+        font-size: 14px;
+    }
+
+    .next__event{
+        font-size: 14px;
+    }
+
+    .header__2{
+        font-size: 18px;
+    }
+
+    .events-date__card{
+        max-width: 200px;
+    }
+
+    .next__event{
+        margin-right: 0;
+    }
+}
